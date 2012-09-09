@@ -11,14 +11,14 @@
         <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
-            <version>2.2.1</version>
+            <version>2.3.3</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-          <groupId>org.apache.callback</groupId>
-          <artifactId>phonegap</artifactId>
-          <version>1.1.0</version>
+          <groupId>org.apache.cordova</groupId>
+          <artifactId>cordova</artifactId>
+          <version>2.0.0</version>
         </dependency>
     </dependencies>
 
@@ -38,12 +38,12 @@
 
             <plugin>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
-                <artifactId>maven-android-plugin</artifactId>
-                <version>2.6.0</version>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>3.0.0-alpha-13</version>
                 <configuration>
                     <sdk>
                         <!-- platform or api level (api level 4 = platform 1.6)-->
-                        <platform>8</platform>
+                        <platform>10</platform>
                     </sdk>
                     <emulator>
                         <!-- the name of the avd device to use for starting the emulator -->
